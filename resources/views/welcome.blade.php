@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="https://mighty-woodland-96203.herokuapp.com/about">About Me</a>
-                    <a href="https://mighty-woodland-96203.herokuapp.com/contact">Contact</a>
+                    <a href="https://mighty-woodland-96203.herokuapp.com/Contact">Contact</a>
                 </div>
             </div>
         </div>

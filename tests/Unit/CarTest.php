@@ -12,7 +12,8 @@ class NormalTest extends TestCase
     {
         $response = $this->get('/register');
 
-        
+
+
         $response->assertStatus(200);
         return $response;
     }

@@ -12,3 +12,4 @@ $factory->define(User::class, function (Faker $faker) {
         'Year' => now(),
     ];
 });
+

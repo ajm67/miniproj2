@@ -15,9 +15,7 @@ Route::get('/thankyou', function () {
     return view('thankyou');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('contact', 'ContactController@index')-> name('contact');
 
 Route::get('/about', function () {
     return view('about');
