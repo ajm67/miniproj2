@@ -86,7 +86,7 @@
                     <textarea name="body" class="form-control" id="body" rows="3"></textarea>
 
                 </div>
-                <div><input type=button onClick="location.href='https://agile-cliffs-34402.herokuapp.com/thankyou'" value='submit'></div>
+                <div><input type=button onClick="location.href='https://mighty-woodland-96203.herokuapp.com/thankyou'" value='submit'></div>
 
             </form>
 

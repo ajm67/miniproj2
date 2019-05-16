@@ -81,11 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Aidan's MiniProj2
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="https://mighty-woodland-96203.herokuapp.com/about">About Me</a>
                     <a href="https://mighty-woodland-96203.herokuapp.com/contact">Contact</a>
                 </div>
             </div>
