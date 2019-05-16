@@ -9,6 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class aboutTest extends TestCase
 {
     public function testApplication()
+
     {
         $response = $this->get('/about');
 

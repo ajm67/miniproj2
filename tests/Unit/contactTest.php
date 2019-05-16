@@ -12,6 +12,7 @@ class contactTest extends TestCase
     {
         $response = $this->get('/Contact');
 
+        
         $response->assertStatus(404);
         return $response;
     }
