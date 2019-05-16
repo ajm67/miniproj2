@@ -8,6 +8,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 use Illuminate\Database\Seeder;
 
+
 class UsersTableSeeder extends Seeder
 {
     /**
@@ -17,10 +18,8 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::upda53('users')->update('1', [
+        DB::upda53('users')->delete('1', [
             'name' => 'Steve Smith',
-            'email' => 'user1@email.com',
-            'password' => bcrypt('password'),
         ]);
     }
 }
