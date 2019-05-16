@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Aidan's Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,14 +81,31 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Contact Us
                 </div>
-
+                <br>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://mighty-woodland-96203.herokuapp.com/contact">Contact</a>
-                </div>
-            </div>
-        </div>
+                    Please use the below form to submit your contact information. Thank you!
+<br>
+                    <form action="/contact" method="post">
+                        {{ csrf_field() }}
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="body">Message</label>
+                            <textarea name="body" class="form-control" id="body" rows="3"></textarea>
+
+                        </div>
+                        <div><input type=button onClick="location.href='https://agile-cliffs-34402.herokuapp.com/thankyou'" value='submit'></div>
+
+                    </form>
+
+
+
+
+
     </body>
 </html>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Thank You</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,14 +81,24 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Thank you for messaging us
                 </div>
-
+                <br>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://mighty-woodland-96203.herokuapp.com/contact">Contact</a>
+                    We will contact you using the email address you submitted: $NameEmail
+                    Thank you!
                 </div>
-            </div>
-        </div>
+<br>
+                <br>
+
+                    <div class="links">
+                        <a href="https://agile-cliffs-34402.herokuapp.com">home</a>
+
+                    </div>
+
+
+
+
+
     </body>
 </html>
