@@ -1,111 +1,104 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Aidan's Laravel</title>
+    <title>Aidan's Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- Styles -->
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
 
-            .full-height {
-                height: 100vh;
-            }
+        .full-height {
+            height: 100vh;
+        }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
 
-            .position-ref {
-                position: relative;
-            }
+        .position-ref {
+            position: relative;
+        }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
 
-            .content {
-                text-align: center;
-            }
+        .content {
+            text-align: center;
+        }
 
-            .title {
-                font-size: 84px;
-            }
+        .title {
+            font-size: 84px;
+        }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
+        .links > a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<div class="flex-center position-ref full-height">
+    @if (Route::has('login'))
+        <div class="top-right links">
+            @auth
+                <a href="{{ url('/home') }}">Home</a>
+            @else
+                <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}">Register</a>
+                @endif
+            @endauth
+        </div>
+    @endif
+
+    <div class="content">
+        <div class="title m-b-md">
+            Contact Us
+        </div>
+        <br>
+        <div class="links">
+            Please use the below form to submit your contact information. Thank you!
+            <br>
+            <form action="/contact" method="post">
+                {{ csrf_field() }}
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
                 </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Contact Us
+                <div class="form-group">
+                    <label for="body">Message</label>
+                    <textarea name="body" class="form-control" id="body" rows="3"></textarea>
+
                 </div>
-                <br>
-                <div class="links">
-                    Please use the below form to submit your contact information. Thank you!
-<br>
-                    <form action="/contact" method="post">
-                        {{ csrf_field() }}
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="body">Message</label>
-                            <textarea name="body" class="form-control" id="body" rows="3"></textarea>
-
-                        </div>
-                        <div><input type=button onClick="location.href='https://agile-cliffs-34402.herokuapp.com/thankyou'" value='submit'></div>
-
-                    </form>
+                <div><input type=button onClick="location.href='https://mighty-woodland-96203.herokuapp.com/thankyou'" value='submit'></div>
+            </form>
+        </div>
 
 
-
-
-
-    </body>
-</html>
