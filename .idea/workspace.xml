@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c4357d-e6c7-4762-8e4b-fa21bc63e8cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Unit/loginTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/CONTACT.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/CONTACT.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,14 +114,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="102">
+              <caret line="13" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/loginTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,6 +171,7 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/CONTACT.blade.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CarTest.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/loginTest.php" />
       </list>
     </option>
   </component>
@@ -271,6 +281,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TEST\PhpstormProjects\miniproj2\tests\Unit" />
       <recent name="C:\Users\TEST\PhpstormProjects\miniproj2\resources\views" />
       <recent name="C:\Users\TEST\PhpstormProjects\miniproj2\app\" />
       <recent name="C:\Users\TEST\PhpstormProjects\miniproj2\app" />
@@ -322,7 +333,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557704813151</updated>
-      <workItem from="1557704814538" duration="24039000" />
+      <workItem from="1557704814538" duration="24133000" />
     </task>
     <task id="LOCAL-00001" summary="Make New Laravel Site - Done">
       <created>1557710607697</created>
@@ -380,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557968764184</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.  Write a feature test to check if the register return a 200 status code. - Done">
+      <created>1557971819160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557971819160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24039000" />
+    <option name="totallyTimeSpent" value="24133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1267" y="5" width="1280" height="720" extended-state="0" />
@@ -448,7 +466,8 @@
     <MESSAGE value="Create a database seed to generate 50 cars. - 50 card generated" />
     <MESSAGE value="Create a controller, route, and view to show a contact form and add it to the main menu of your site. - done" />
     <MESSAGE value="Create a controller, route, and view to show an about page and add it to the main menu of your site. - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a controller, route, and view to show an about page and add it to the main menu of your site. - done" />
+    <MESSAGE value="1.  Write a feature test to check if the register return a 200 status code. - Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.  Write a feature test to check if the register return a 200 status code. - Done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -665,11 +684,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/CarTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="102">
+          <caret line="13" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/loginTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
